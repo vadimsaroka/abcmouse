@@ -1,11 +1,11 @@
 python3 -m venv abc-env    
 
-Activate env: source abc-env/bin/activate
+Activate env: "source abc-env/bin/activate"
 
-Close env: deactivate
+Close env: "deactivate"
 
-Save deps: pip freeze > requirements.txt
+Save deps: "pip freeze > requirements.txt"
 
-Install deps: pip install -r requirements.txt
+Install deps: "pip install -r requirements.txt"
 
-run tests: python3 -m unittest
+run tests: "python3 -m unittest"
